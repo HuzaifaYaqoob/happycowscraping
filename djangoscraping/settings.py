@@ -126,5 +126,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 CRONJOBS = [
-    ('* * * * *', 'djangoscraping.crobjob.py.scrapinghappycow')
+    ('* * * * *', 'djangoscraping.crobjob.scrapinghappycow')
 ]
