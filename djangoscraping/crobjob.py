@@ -7,6 +7,9 @@ def write_log(message, end='\n'):
 
 def scrapinghappycow():
     write_log('/////////////////////////////// cronjob working')
-    for i in range(700):
-        write_log(f'Working with Iteration :: {i}')
-        main()
+    try:
+        for i in range(700):
+            write_log(f'Working with Iteration :: {i}')
+            main()
+    except Exception as e:
+        write_log(str(e))
