@@ -6,4 +6,4 @@ def write_log(message, end='\n'):
 
 
 def scrapinghappycow():
-    write_log('/////////////////////////////// cronjob working')
+    print('/////////////////////////////// cronjob working')
